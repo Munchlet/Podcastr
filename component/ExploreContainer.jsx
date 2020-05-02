@@ -4,6 +4,9 @@ import GradientSearch from "./GradientSearch";
 import PodcastCard from "./PodcastCard";
 
 const styles = StyleSheet.create({
+	container: {
+		paddingBottom: 20,
+	},
 	headerContainer: {
 		marginBottom: 4,
 		paddingLeft: 20,
@@ -79,7 +82,7 @@ export default function ExplorContainer() {
 	]);
 
 	return (
-		<View>
+		<View style={styles.container}>
 			<View style={styles.headerContainer}>
 				<Text style={styles.exploreTitle}>EXPLORE</Text>
 				<Text style={styles.exploreSubtitle}>all your favorite</Text>
