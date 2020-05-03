@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		borderColor: "#efefef",
 		borderRadius: 100,
-		height: 64,
+		height: 61,
 		borderColor: "#949494de",
 	},
 	textEp: {
